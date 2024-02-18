@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./icons/imgimg.png">
+    <title>Images</title>
+    <style>
+        .images {
+            height: 100%;
+            width: 100%;
+            max-height: 99.4vh;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img name="slide" class="images">
+</body>
+<script>
+    let i = 1;
+    let images = []
+
+    function changeImage() {
+        if(i != 14 || i != 16 || i != 43){
+            document.slide.src = `./images/relax${i}.jpg`;
+        }
+        else{
+            if(i == 14 || i == 45) document.slide.src = `./images/relax${i}.png`;
+            if(i == 16) document.slide.src = `./images/relax${i}.webp`;
+            if(i == 43) document.slide.src = `./images/relax${i}.jpeg`;
+        }
+        
+        if(i < 75){
+            i++
+        }
+        else{
+            i = 1;
+        }
+
+        setTimeout("changeImage()", 7500)
+    }
+
+    window.onload = changeImage;
+</script>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./icons/LinkIMG.jpg">
+    <title>Links</title>
+    <style>
+        a {
+            display: flex;
+            color: #000;
+            text-decoration: none;
+            margin: 15px;
+            justify-self: center;
+            font-size: 20px;
+        }
+        body{
+            background-image: url('./images/moonfull.jpg');
+            scroll-behavior: smooth;
+            background-attachment: fixed;
+        }
+        button {
+            background-color: green;
+            font-size: 24px;
+        }
+        p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .card {
+            border: 1px #000 solid;
+            color: #000;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .links {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column;
+        }
+        .middle {
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto auto;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='./images.html'">IMAGES</button>
+    <span style="display: grid; grid-template-columns: 60vw; align-content: center; justify-content: center;">
+        <div class="card middle" style="background-color: pink;">
+            <p>ANIME</p>
+            <div class="links">
+                <a href="https://www.superanimes.org/anime/kakushigoto">Kakushigoto</a>
+                <a href="https://www.superanimes.org/anime/re-zero-kara-hajimeru-isekai-seikatsu-shin-henshuu-ban/12111625">Re: Zero</a>
+                <a href="https://www.superanimes.org/anime/violet-evergarden/2032606">Violet Evergarden (ep. 2)</a>
+                <a href="https://www.superanimes.org/anime/ano-hana/14330">Ano Hana (ep. 7)</a>
+            </div> 
+        </div>
+
+        <div class="card middle" style="background-color: lightblue;">
+            <p>DOCS</p>
+            <div class="links">
+                <a href="https://reactjs.org/docs/lifting-state-up.html">React Documentation</a>
+                <a href="https://www.selenium.dev/documentation/en/getting_started_with_webdriver/locating_elements/">Selenium</a>
+                <a href="https://docs.google.com/document/d/1SOyMrhbG-HO6ng1InwUFyxDEo11svWIKhcvFUQIObQU/edit#heading=h.em03wgnymzfs">Learning Path DEV</a>
+            </div>
+        </div>
+
+        <div class="card middle" style="background-color: lightcoral;">
+            <p>YOUTUBE</p>
+            <div class="links">
+                <a href="https://www.youtube.com/watch?v=CITYla5utT4&list=PL85ITvJ7FLoifcDIBeuuAhh4_799RZaSc">Rocketseat CodeDrops</a>
+                <a href="https://www.youtube.com/watch?v=lA8o3kUl1TA&list=PL85ITvJ7FLohhULgUFkYBf2xcXCG6yfVV">Rocketseat CodeDrops+</a>
+                <a href="https://www.youtube.com/watch?v=ICIz5dE3Xfg&list=PL85ITvJ7FLoiNndfuEs2So-MFLSMvBmmD&index=8">Rocketseat Masterclass+</a>
+                <a href="https://www.youtube.com/watch?v=U7GjS3FuSkA&list=PL85ITvJ7FLogMzb2s6K5wKpQK2nL76vUK&index=3">Rocketseat Masterclass</a>
+                <a href="https://www.youtube.com/watch?v=h0e32s1vyt4">Case Interview - McKinsey</a>
+                <a href="https://www.youtube.com/watch?v=rX2I7OjLqWE">SQL em 4H</a>
+                <a href="https://www.youtube.com/watch?v=dz7Ntp7KQGA">Ethical Hacking 10 Hours</a>
+                <a href="https://www.youtube.com/watch?v=3Kq1MIfTWCE">Ethical Hacking Begginers 15H</a>
+                <a href="https://www.youtube.com/watch?v=Rub-JsjMhWY&list=PLGLfVvz_LVvSX7fVd4OUFp_ODd86H0ZIY"> Learn to code in one video</a>
+                <a href="https://www.youtube.com/watch?v=swQEbZ6ez1I&list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt&index=2">Learn to Program (Python) </a>
+                <a href="https://www.youtube.com/watch?v=WFr2WgN9_xE">ML & AI Mega Course</a>
+            </div>
+        </div>
+
+        <div class="card middle" style="background-color: lightslategrey;">
+            <p>CURSOS</p>
+            <div class="links">
+                <a href="https://www.coursera.org/learn/game-theory-introduction/lecture/X1d2e/1-3-in-search-for-the-governing-principle">Coursera - Game Theory</a>
+                <a href="https://pages.upinside.com.br/phpdojeitocerto/php-do-jeito-certo-23400/">PHP</a>
+                <a href="https://www.udemy.com/course/ultimate-python-tutorial/learn/quiz/4712363#overview">Udemy - Python Tutorial</a>
+            </div>
+        </div>
+
+        <div class="card middle" style="background-color: lightgreen;">
+            <p>AUDIOBOOKS</p>
+            <div class="links">
+                <a href="https://www.youtube.com/watch?v=VfjweyDBNqk">Como se tornar inesquecivel</a>
+                <a href="https://www.youtube.com/watch?v=jFkwwvwPHgY">Os 7 hábitos de pessoas altamente eficazes</a>
+                <a href="https://www.youtube.com/watch?v=qUJghWDUVQ4">O poder do agora</a>
+                <a href="https://www.youtube.com/watch?v=ReRcHdeUG9Y">Simon Sinek - Leaders</a>
+            </div>
+        </div>
+
+        <div class="card middle" style="background-color: lightsteelblue;">
+            <p>BOOKS</p>
+            <div class="links">
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/Guia%20Conhecimento%20em%20TI%20-%202020.pdf.pdf">Guia de Conhecimento em TI</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/PROD/Cracked%20it!%20(1).pdf">Cracked it!</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/JR/0Inteligencia%20Social%20-%20Daniel%20Goleman.pdf">Inteligência Social</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/PSI/2019_Book_SocialPsychologyInAction.pdf">Social Psychology</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/JR/Livro_%20Alcançando%20Excelência%20em%20Vendas%20com%20Spin%20Selling%20-%20Neil%20Rackham.pdf">SPIN Selling</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/AI/2014_Book_SearchMethodologies.pdf">Search Methodologies</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/CS/Ultralearning.pdf">UltraLearning</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/CS/2011_Book_ComputerVision.pdf">Computer Vision</a>
+                <a href="file:///C:/Users/Fernando/Desktop/ESTUDOS/BOOKS/JR/Paixao_por_vencer.pdf">Paixão por Vencer</a>
+            </div>
+        </div>
+
+        <div class="card middle" style="background-color: yellowgreen;">
+            <p>GITHUB PRO</p>
+            <div class="links">
+                <a href="https://frontendmasters.com/welcome/github-student-developers/">Frontend Masters</a>
+                <a href="https://www.interviewcake.com/github-students">InterviewCake</a>
+                <a href="https://covalence.io/lp/github-students/">Covalence</a>
+            </div>
+        </div>
+    </span>
+</body>
+</html>
